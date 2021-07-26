@@ -1,0 +1,16 @@
+.title {
+    h1 {
+        font-size: 1.9rem;
+    }
+    margin-bottom: 0.5rem;
+    padding: 0.2rem 0 0.2rem 0.5rem;
+    background-color: rgba(0,95,115, 0.55);
+}
+
+ul li {
+    &:hover {
+        background-color: rgba(0,95,115, 0.05);
+        cursor: pointer;
+    }
+    margin-bottom: -0.5rem;
+}

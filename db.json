@@ -1,0 +1,30 @@
+{
+  "login": [
+    {
+      "cpf": "12345678912",
+      "email": "lohan@hotmail.com",
+      "name": "lohan",
+      "passwd": "123",
+      "id": 1
+    }
+  ],
+  "service": [
+    {
+      "name": "lohan",
+      "typeService": "limpeza de carro",
+      "value": "50",
+      "shift": "m",
+      "id": 1
+    }
+  ],
+  "hirerRequest": [
+    {
+      "ampDesc": "limpeza de carro",
+      "name": "lohan",
+      "details": "ofereço comida, roupa",
+      "value": "100",
+      "typePade": "boleto",
+      "id": 1
+    }
+  ]
+}

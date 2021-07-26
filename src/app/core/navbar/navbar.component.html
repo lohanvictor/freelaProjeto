@@ -1,0 +1,17 @@
+<nav class="navbar-top">
+  <span class="sendToService" (click)="sendToService()">Freela</span>
+
+  <div *ngIf="!login.name">
+    <ul>
+      <li (click)="openModal('login')">
+        login
+      </li>
+      <li (click)="openModal('register')">
+        registrar-se
+      </li>
+    </ul>
+  </div>
+  <div *ngIf="login.name" >
+    <span class="login-success">Bem vindo {{ login.name }}</span>
+  </div>
+</nav>

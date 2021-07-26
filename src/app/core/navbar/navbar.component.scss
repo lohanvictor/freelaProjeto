@@ -1,0 +1,49 @@
+nav.navbar-top {
+    background-color: #005F73;
+    display: flex;
+    padding: 0 1rem;
+    font-size: 1.25rem;
+    align-items: center;
+    
+    justify-content: space-between;
+    align-content: center;
+
+    height: 3.5rem;
+
+    ul{
+        margin: 0;
+        li {
+            color: white;
+            list-style: none;
+            border-radius: .6rem;
+            justify-self: center;
+
+            padding: .2rem .7rem;
+
+            float: left;
+            margin-left: 1rem;
+
+            &:hover {
+                background-color: rgba(170, 170, 170, 0.192);
+                cursor: pointer;
+            }
+        }
+    }
+
+    span {
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: white;
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .login-success {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+}

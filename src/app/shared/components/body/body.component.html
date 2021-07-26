@@ -1,0 +1,12 @@
+<div class="d-flex justify-content-around align-items-center h-100">
+    <button
+        (click)="sendTo('criarServico')"
+        class="botao" [class.disabled]="!login?.name">
+        Criar serviço
+    </button>
+    <button 
+        (click)="sendTo('contratarServico')"
+        class="botao" [class.disabled]="!login?.name">
+        Contratar serviço
+    </button>
+</div>

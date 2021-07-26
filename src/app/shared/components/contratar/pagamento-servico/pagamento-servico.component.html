@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="col-md-6">
+    <div class=" d-flex flex-column align-items-center">
+      <div class="valor-servico d-flex flex-column align-items-center">
+        <span>Valor do serviço solicitado</span>
+        <span>R$ {{ dados.value }} </span>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="valor-servico d-flex flex-column align-items-center">
+      <span class="mb-4 title-pagamento">Pagamento</span>
+      <button class="mb-2 pagamento btn" (click)="pagamento('pix')">
+        Pagar com pix
+      </button>
+      <button class="mb-2 pagamento btn" (click)="pagamento('boleto')">
+        Pagar com boleto
+      </button>
+    </div>
+  </div>
+</div>

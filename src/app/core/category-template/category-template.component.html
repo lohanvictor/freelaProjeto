@@ -1,0 +1,8 @@
+<div class="w-100 title">
+    <h1> {{ title }} </h1>
+</div>
+<ul *ngFor="let item of types; let i=index">
+    <li (click)="routeCategory(i)" >
+        {{ item }}
+    </li>
+</ul>

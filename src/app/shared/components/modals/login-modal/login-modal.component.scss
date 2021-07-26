@@ -1,0 +1,12 @@
+.background-field {
+    background-color: #00607352 !important;
+}
+
+button.btn-login, button.btn-cancel {
+    background-color: #40858f13;
+
+    &:hover {
+        transition: 0.5s;
+        background-color: #40858fc2;
+    }
+}

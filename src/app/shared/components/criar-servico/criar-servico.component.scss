@@ -1,0 +1,43 @@
+.servico-container {
+  background-color: white;
+  margin: 2rem 3rem;
+
+  input[type="text"] {
+    background-color: #00607385 !important;
+    color: white;
+    font-weight: bold;
+  }
+
+  .bg {
+    background-color: #00607385 !important;
+  }
+
+  .foto {
+    width: 100%;
+    height: 100%;
+    background-image: url("./../../../../assets/rosto-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  button.confirmed-button {
+    padding: 0.35rem 2rem;
+    border: 0;
+    background-color: #00607385 !important;
+    border-radius: 0.5rem;
+    
+    &:hover:not(.disabled) {
+        cursor: pointer;
+        background-color: #006073da !important;
+        transition: 0.3s;
+    }
+  }
+  button.disabled {
+    &:hover {
+      background-color: rgb(168, 168, 168);
+      cursor: default;
+    }
+    background-color: rgb(168, 168, 168);
+  }
+}
+

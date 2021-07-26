@@ -1,0 +1,53 @@
+.servico-container {
+  background-color: white;
+  margin: 2rem 3rem;
+  padding: 0.5rem;
+
+  .header {
+    background-color: #00607393;
+    padding: 0.25rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 0.05rem;
+    font-weight: 400;
+  }
+
+  input[type="text"], textarea {
+    background-color: #00607385 !important;
+    color: white;
+    font-weight: bold;
+  }
+
+  textarea.description {
+    height: 8rem;
+    max-height: 8rem;
+    min-height: 8rem;
+  }
+
+  textarea.description-width {
+    height: 13.5rem;
+    max-height: 13.5rem;
+    min-height: 13.5rem;
+    background-color: #c4c4c4 !important;
+    color: black;
+  }
+
+  button.disabled {
+    &:hover {
+      background-color: rgb(168, 168, 168);
+      cursor: default;
+    }
+    background-color: rgb(168, 168, 168);
+  }
+  button.confirmed-button {
+    padding: 0.35rem 2rem;
+    border: 0;
+    background-color: #00607385 !important;
+    border-radius: 0.5rem;
+    
+    &:hover:not(.disabled) {
+        cursor: pointer;
+        background-color: #006073da !important;
+        transition: 0.3s;
+    }
+  }
+}

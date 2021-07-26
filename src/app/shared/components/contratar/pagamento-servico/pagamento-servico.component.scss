@@ -1,0 +1,18 @@
+.valor-servico {
+  background-color: #94D2BD;
+  padding: 0.6rem 0.6rem;
+
+  .title-pagamento {
+    background: rgba(232, 232, 232, 0.56);
+    padding: 0.5rem;
+  }
+
+  button.pagamento {
+    background: #5EBBB6;
+    border-radius: 70px;
+
+    &:hover {
+        background: #52a19d;
+    }
+  }
+}

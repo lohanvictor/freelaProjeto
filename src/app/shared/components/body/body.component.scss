@@ -1,0 +1,25 @@
+.botao {
+    background-color: cadetblue;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+
+    &:link, &:visited {
+        color: black;
+    }
+
+    &:hover {
+        background-color: rgba(95, 158, 160, 0.562);
+        cursor: pointer;
+    }
+}
+
+.disabled {
+    background-color: grey;
+    &:hover {
+        background-color: grey;
+        cursor: default;
+    }
+    color: white;
+    text-decoration: none;
+}
